@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    height: 100%;
+    max-width: 100%;
+    background-color: #fffcf6;
+    background: url('./images/bg.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    line-height: 1.6
+}
+
+/*******************************Header Section*******************************/
+.header-bar{
+    background-color: #0703008f;
+    width: 100%;
+    height: 2em;
+    padding-top: 0.5%;
+    text-align: right;
+    float: right;
+    position: fixed;
+    top: 0;
+}
+
+.header-bar a{
+    padding-left: 2%;
+    padding-right: 1%;
+    text-decoration: none;
+    color: white;    
+}
+
+.header-bar a:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.89);   
+}
+
+.header-bar a:active{
+    text-decoration: none;
+    color: rgba(238, 234, 234, 0.575);  
+}
+
+.btn-top{
+    float: left;
+    text-align: left;
+}
+/*******************************Intro Section*******************************/
+.intro-content{
+    font-size: 68px;
+    font-weight: 800;
+    color: rgb(36, 35, 35);
+    text-align: center;
+    text-shadow: 7px 2px 4px #e7e5e5;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+/***************************************************************************/
+
+/*******************************Main Section*******************************/
+.main-content{
+    width: 100%;
+    height: 50em;
+    background-color: #ebd5bd;
+    box-shadow: 0px -9px 34px -15px rgba(0,0,0,0.815);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2%;
+}
+
+.first-intro{
+    text-align: center;
+}
+
+.first-intro h1{
+    font-size: 42px;
+}
+
+.first-intro p{
+    font-size: 24px;
+}
+
+.skip-ahead{
+    width: 100%;
+    margin-top: 3%;
+    background-image: url('./images/img1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.skip-ahead-overlay{
+    background-color: #4122024b;
+    z-index: 2;
+    padding: 2% 0 4% 0;
+}
+
+.skip-ahead h1{
+    font-size: 44px;
+    color: white;
+}
+
+.btn-skip-project{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white; 
+    border: 1px solid white;
+    display: inline-block;
+    padding: 10px 15px; 
+    transition: 0.2s;
+}
+
+.btn-skip-project:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.second-intro{
+    width: 100%;
+    height: 50em;
+    background-color: #f7b56f;
+    box-shadow: 0px -9px 34px -15px rgba(0, 0, 0, 0.815);
+    padding-top: 3%;
+    margin-bottom: -10em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.tall-pic{
+    margin-left:6%;
+    margin-top: 2%;
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+}
+
+.continue-profile{
+    margin-left: 4%;
+    margin-right: 8%;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: left;
+}
+
+.continue-profile h1{
+    font-size: 42px;
+}
+
+.continue-profile p{
+    font-size: 24px;
+}
+
+
+.my-resume{
+    width: 100%;
+    margin-top: 4%;
+    background-image: url('./images/img2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.my-resume-overlay{
+    background-color: #4122024b;
+    z-index: 2;
+    padding: 2% 0 4% 0;
+}
+
+.my-resume h1{
+    font-size: 44px;
+    color: white;
+}
+
+.btn-open-resume{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white; 
+    border: 1px solid white;
+    display: inline-block;
+    padding: 10px 15px; 
+    transition: 0.2s;
+}
+
+.btn-open-resume:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.projects-content{
+    width: 100%;
+    height: auto;
+    background-color: #ebd5bd;
+    box-shadow: 0px -9px 34px -15px rgba(0, 0, 0, 0.815);
+    padding-top: 3%;
+    margin-bottom: -10em; 
+}
+
+
+.projects-content h1{
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.projects-wrapper{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.p-Guli{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    width: 40%;
+    height: auto;
+    align-items: center;
+    margin: 80px 0 80px 0;
+}
+
+.g-icon{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    border: 1px solid black;
+}
+
+.guli-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.guli-images img{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 1px solid black;
+}
+
+.p-Guli h1{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+
+.p-Guli p{
+    text-align: left;
+    font-size: 24px;
+}
+
+.guli-link{  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: rgba(37, 37, 37, 0.945);
+}
+
+.guli-link:hover{
+    color: rgba(187, 181, 181, 0.945);
+}
+
+.guli-link h3{
+    margin-left: 10px;
+}
+
+.guli-link img{ 
+    width: 50px;
+    height: auto;
+    padding: 6px 5px 6px 8px;
+    background-color: white;
+    border: 2px rgba(0, 0, 0, 0.616) solid;
+    border-radius: 6px;
+    box-shadow: 3px 6px #88888885;
+}
+
+.p-Run{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    width: 40%;
+    height: auto;
+    align-items: center;
+    margin: 80px 0 80px 0;
+    padding: 30px 0 30px 0;
+    background-color: #f7b56f;
+}
+
+.run-icon{
+    width: 150px;
+    border: 1px solid black;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.p-Run h1{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+
+.p-Run p{
+    text-align: left;
+    font-size: 24px;
+}
+
+.run-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.run-images img{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 1px solid black;
+}
+
+.run-link{  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: rgba(37, 37, 37, 0.945);
+}
+
+.run-link:hover{
+    color: rgba(187, 181, 181, 0.945);
+}
+
+.run-link h3{
+    margin-left: 10px;
+}
+
+.run-link img{ 
+    width: 50px;
+    height: auto;
+    padding: 6px 5px 6px 8px;
+    background-color: white;
+    border: 2px rgba(0, 0, 0, 0.616) solid;
+    border-radius: 6px;
+    box-shadow: 3px 6px #88888885;
+}
+
+.p-RPS{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    width: 40%;
+    height: auto;
+    align-items: center;
+    margin: 80px 0 50% 0;
+}
+
+.rps-icon{
+    border: 1px solid black;
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.p-RPS h1{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+
+.p-RPS p{
+    text-align: left;
+    font-size: 24px;
+}
+
+.rps-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.rps-images img{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 1px solid black;
+}
+
+.btn-rps{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(37, 37, 37, 0.945); 
+    border: 1.5px solid rgba(37, 37, 37, 0.945);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 15px; 
+    transition: 0.3s;
+}
+
+.btn-rps:hover{
+    text-decoration: none;
+    color: rgba(37, 37, 37, 0.945);
+    background-color: rgba(243, 241, 241, 0.945);
+}
+
+
+
+
+/**************************************************************************/
+
+/*******************************Footer Section*******************************/
+.footer-bar{
+    height: 20em;
+    width: 100%;
+    background-color: #221200;
+}
+/****************************************************************************/
