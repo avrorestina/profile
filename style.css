@@ -459,8 +459,123 @@ body{
 
 /*******************************Footer Section*******************************/
 .footer-bar{
-    height: 30em;
+    height: 25em;
     width: 100%;
     background-color: #221200;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    height: auto;
+    width: 45%;
+    padding-left: 2%;
+}
+
+.social-icon-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    width: 40%;
+}
+
+.gmail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.gmail img{
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.gmail img:hover{
+    opacity: 0.5;
+}
+
+.twitter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.twitter img{
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.twitter img:hover{
+    opacity: 0.5;
+}
+
+.github{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.github img{
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.github img:hover{
+    opacity: 0.5;
+}
+
+.linkedin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.linkedin img{
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.linkedin img:hover{
+    opacity: 0.5;
 }
 /****************************************************************************/
